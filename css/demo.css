@@ -194,3 +194,19 @@ p.info {
 
 /* New Code here */
 
+#main_wrap {
+/*border:2px solid blue;*/
+padding: 100px;
+}
+
+#sidebar{
+        /*background:red;*/
+        width: 300px;
+        float:right;
+    }
+
+#content{
+    background:white;
+    /*margin-left:px;   */
+    margin-right:400px; 
+}
