@@ -13,13 +13,16 @@
 	position: relative;
 	width: 100%;
 	overflow: hidden;
-	margin: 1em 0 2em;
+	margin: 1em 0 0em;
 	font-weight: 300;
+	background-color: #ffffff
 }
 
 /* Nav */
 .tabs nav {
 	text-align: center;
+	background-color: #f3f3f3;
+	height: 60px;
 }
 
 .tabs nav ul {
@@ -27,12 +30,13 @@
 	margin: 0;
 	list-style: none;
 	display: inline-block;
+	background-color: #ffffff
 }
 
 .tabs nav ul li {
 	border: 1px solid #becbd2;
 	border-bottom: none;
-	margin: 0 0.25em;
+	margin: 0 0em;
 	display: block;
 	float: left;
 	position: relative;
