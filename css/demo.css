@@ -406,19 +406,54 @@ p.info {
 
 .share-page {
     text-align: center;
-    background: $secondary-color;
-    color: $light-color;
+    background: #609CDC;
+    color: #fff;
     padding: 8px 15px;
     border-radius: 5px;
-    margin: 1.5 * $spacing-unit 0;
+    margin: 1.5 * 2.5 0;
 
-    a {
-        font-weight: 700;
-        color: #fff;
-        margin-left: 10px;
+ }
 
-        &:hover {
-            border-bottom: 1px dashed #fff;
-        }
-    }
+ .share-page a{
+	font-weight:700;
+	color:#fff;
+	margin-left:10px
 }
+
+.share-page a:hover{
+	border-bottom:1px dashed #fff
+	color: #fff;
+}
+
+.muted {
+	color: #848484;
+}
+
+address{
+	display:block;
+	margin-bottom:20px;
+	font-style:normal;
+	/*line-height:1.428571429*/
+		border-top:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+	padding-top:1.5em;
+	padding-bottom:1.5em;
+	margin-top:1.5em;
+	margin-bottom:1.5em
+}
+
+address{
+	margin:0;
+	font-size:15px
+}
+
+address img{
+	float:left;
+	border-radius:50px;
+	width:60px;
+	margin:0 20px 0 0
+}
+
+/*address .follow{
+	margin:1em 75px 0
+}*/

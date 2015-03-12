@@ -3,6 +3,7 @@ layout: post
 title:  "Welcome to Jekyll!"
 date:   2015-03-11 22:43:13
 categories: article
+author: ariestiyansyah
 thumbnail: /img/01.png
 featured: true
 comments: true

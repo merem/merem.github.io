@@ -2,6 +2,7 @@
 layout: post
 title:  "Welcome vfdvfvdto Jekyll!"
 date:   2015-03-11 22:43:13
+author: ariestiyansyah
 categories: article
 thumbnail: /img/02.png
 featured: true
