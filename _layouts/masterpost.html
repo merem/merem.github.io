@@ -1,17 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
-  {% include head.html %}
+<html>
+{% include head.html %}
   <body>
-    <div class="container">
+  <div class="container">
       {% include header.html %}
-      <div class="tabs">
-{{ content }}
-      </div><!-- /tabs -->
-      {% include footer.html %}
-    </div>
-    <script src="js/cbpFWTabs.js"></script>
-    <script>
-      new CBPFWTabs( document.getElementById( 'tabs' ) );
-    </script>
+      <div id="tabs" class="tabs">
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          
+          {{ content }}
+
+        </section>
+
+        {% include sidebar.html %}
+      </div>
+    </div></div></div>
+{% include footer.html %}
   </body>
+
 </html>
