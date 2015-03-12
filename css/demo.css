@@ -266,7 +266,7 @@ p.info {
       background-size: 128px 32px; } }
   .footer .authors {
     margin: 0;
-    padding: 10px;
+    padding: 10px;	
     color: #858f9e;
     /*text-align: right;*/
     font-size: 13px; }
@@ -402,3 +402,23 @@ p.info {
      color: white; 
     }
 
+/* Share page */
+
+.share-page {
+    text-align: center;
+    background: $secondary-color;
+    color: $light-color;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin: 1.5 * $spacing-unit 0;
+
+    a {
+        font-weight: 700;
+        color: #fff;
+        margin-left: 10px;
+
+        &:hover {
+            border-bottom: 1px dashed #fff;
+        }
+    }
+}
