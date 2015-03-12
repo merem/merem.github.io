@@ -195,34 +195,6 @@ p.info {
 
 /* New Code here */
 
-#main_wrap {
-/*border:2px solid blue;*/
-    /*margin: 0px auto;*/
-    /*max-width: 1150px;*/
-    padding-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 10px;
-}
-
-#content{
-    width:17.5em;
-    /*height: 100%;*/
-    /*margin-right:300px;*/
-    float: left;
-    position: auto;
-    padding: 15px;
-}
-
-#sidebar{
-        /*background:red;*/
-    float: right;
-    padding: 15px;
-    /*min-height: 100%*/
-    max-width: 1050px;
-    /*height:auto;*/
-    /*background:#66CC33;*/
- }
 
 .footer {
   position: relative;
@@ -296,7 +268,7 @@ p.info {
     margin: 0;
     padding: 10px;
     color: #858f9e;
-    text-align: right;
+    /*text-align: right;*/
     font-size: 13px; }
     .footer .authors a {
       color: #a3aec0; }
