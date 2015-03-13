@@ -443,9 +443,9 @@ p {
 a {
   color: #2879d0;
 }
-a:hover {
-  color: #2268b2;
-}
+/*a:hover {
+  color: #fff;
+}*/
 
 /*header {
   padding-top: 40px;

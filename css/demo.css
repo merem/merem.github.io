@@ -510,3 +510,23 @@ hr.dot {
         background: $brand-color-soft;
     }
 }
+
+/* Meta category */
+
+.meta-category a{
+	background-color:#2879D0;
+	color:#efefef;
+	padding:5px 12px;
+	border-radius:3px;
+	margin-right:6px;
+	text-transform:uppercase;
+	-webkit-transition:background-color 0.3s ease;
+	-moz-transition:background-color 0.3s ease;
+	-ms-transition:background-color 0.3s ease;
+	-o-transition:background-color 0.3s ease;
+	transition:background-color 0.3s ease
+}
+
+.meta-category a:hover{
+	background-color:#609CDC;
+}
