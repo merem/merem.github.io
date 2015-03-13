@@ -467,3 +467,46 @@ hr.dot {
 	background-color: transparent;
 	margin-top: 0;
 }
+
+/* Subscribe box */
+#subscribe-box {
+    background: $nav-color;
+    padding: 20px;
+    padding-top: 14px;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 14px;
+
+    p {
+        color: $grey-color-light;
+        margin-bottom: 12px;
+    }
+
+    input {
+        padding:3px 6px;
+        width: 100%;
+        border:none;
+        line-height: 1;
+        font-size: 14px;
+        height: 28px;
+    }
+
+    input[type="text"] {
+        background-color: lighten($nav-color, 10);
+        color: $grey-color-light;
+        font-style: italic;
+        border-radius: 3px 0 0 3px;
+        padding-left: 8px;
+    }
+
+    input[type="submit"] {
+        background: $brand-color;
+        color: $light-color;
+        border-radius: 0 3px 3px 0;
+        @include transition(background-color .3s ease);
+    }
+
+    input[type="submit"]:hover {
+        background: $brand-color-soft;
+    }
+}

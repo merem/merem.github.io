@@ -4,7 +4,11 @@ layout: masterpost
 
 <h2>{{ page.title }}</h2>
 <hr class="dot">
-<p class="meta muted">{% assign author = site.data.authors[page.author] %}
+<p class="meta muted">
+{% for category in page.categories %}
+                <span class="meta-category"><a href="/category/{{ category | slugify }}/">{{ category | replace:'-', ' ' }}</a></span>
+            {% endfor %}
+{% assign author = site.data.authors[page.author] %}
 {% if author %}
     <span>
         <!-- Personal Info. -->
