@@ -90,6 +90,7 @@ a:hover {
 .container > header nav {
 	float: right;
 	text-align: center;
+	margin-top: 25px;
 }
 
 .container > header nav a {

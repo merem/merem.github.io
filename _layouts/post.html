@@ -5,23 +5,20 @@ layout: masterpost
 <h2>{{ page.title }}</h2>
 
 <p class="meta">{% assign author = site.data.authors[page.author] %}
-
-<!-- Output author details if some exist. -->
 {% if author %}
     <span>
         <!-- Personal Info. -->
         Ditulis oleh <a href="{{ author.web }}" target="_blank">{{ author.name }}</a>
     </span>
 {% endif %}, {{ page.date | date_to_string }}</p>
-
 {{ content }}
 <p>
 {% include share.html %}</p>
-            <address>
-               {% if author.image %}<img src="{{ author.image }}">{% endif %}
-                <p>Written by <strong><a rel="author" href="" title="{{ page.author_name }}" target="_blank">{{ author.name }}</a></strong><br>
-                <span class="muted">{{ author.bio }}</span>
-                </p>
-            </address>
+	<address>
+    {% if author.image %}<img src="{{ author.image }}">{% endif %}
+    	<p><strong><a rel="author" href="" title="{{ page.author_name }}" target="_blank">{{ author.name }}</a></strong><br>
+        <span class="muted">{{ author.bio }}</span>
+        </p>
+    </address>
 <p>
 {% include comment.html %}</p>
