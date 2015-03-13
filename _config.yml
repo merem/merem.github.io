@@ -1,8 +1,7 @@
 # Site settings
-title: merem.in
+title: meremin
 email: onto@merem.in
-description: > # this means to ignore newlines until "baseurl:"
-  Karena merem itu indah.
+description: Satu-satunya cuma kamu.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://merem.in" # the base hostname & protocol for your site
 twitter_username: 
