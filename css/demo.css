@@ -701,3 +701,38 @@ ol ol {
   border-radius: 2em;
   transition: all .3s ease-out;
 }
+
+/* Hell yeah */
+
+
+.pre-footer {
+  position: relative;
+  z-index: 100;
+  padding: 40px;
+  background: #EBF0F6; }
+  .pre-footer h4 {
+    color: #363b43;
+    font-family: "AvenirNextLTPro-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .pre-footer .row {
+    margin: 0 auto;
+    max-width: 1170px; }
+  .pre-footer p {
+    color: #999;
+    color: #737e90;
+    font-size: 14px;
+    font-family: "AvenirNextLTPro-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 28px; }
+  .pre-footer a:hover {
+    color: #4E8EF7;
+    text-decoration: none; }
+  .pre-footer span {
+    padding-left: 5px; }
+  .pre-footer .col-a {
+    padding-bottom: 15px; }
+  @media (min-width: 768px) {
+    .pre-footer .col-a {
+      padding-right: 60px;
+      padding-bottom: 0;
+      border-right: 1px solid #ddd; }
+    .pre-footer .col-b {
+      padding-left: 70px; } }
