@@ -14,7 +14,7 @@ layout: masterpost
         <!-- Personal Info. -->
         Oleh <a href="{{ author.web }}" target="_blank">{{ author.name }}</a>
     </span>
-{% endif %} - {{ page.date | date_to_string }}</p>
+{% endif %} - <span class="font-slug"> {{ page.date | date_to_string }} </span></p>
 {{ content }}
 <p>
 {% include share.html %}</p>
