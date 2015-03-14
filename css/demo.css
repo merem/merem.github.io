@@ -429,7 +429,7 @@ hr.dot {
 /* Footer */
 
 footer{
-	position: fixed;
+	/*position: fixed;*/
 	bottom: 0;
 }
 
