@@ -6,11 +6,11 @@ layout: masterpost
 <hr class="dot">
 <p class="meta muted">
 {% for category in page.categories %}
-                <span class="meta-category"><a href="/category/{{ category | slugify }}/">{{ category | replace:'-', ' ' }}</a></span>
+                <span class="meta-category font-slug"><a href="/category/{{ category | slugify }}/">{{ category | replace:'-', ' ' }}</a></span>
             {% endfor %}
 {% assign author = site.data.authors[page.author] %}
 {% if author %}
-    <span>
+    <span class="font-slug">
         <!-- Personal Info. -->
         Oleh <a href="{{ author.web }}" target="_blank">{{ author.name }}</a>
     </span>
