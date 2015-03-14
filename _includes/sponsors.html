@@ -1,0 +1,5 @@
+<div id="sponsor-list" class="embed">
+{% for sponsor in site.data.sponsors limit:6 %}
+    <a class="sponsor-125" href="{{ sponsor.url }}" target="_blank" rel="nofollow"><img style="border:0px" src="{{ sponsor.img }}" width="125" height="125" alt="{{ sponsor.title }}"></a>
+{% endfor %}
+</div>

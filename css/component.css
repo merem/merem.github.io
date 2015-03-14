@@ -149,18 +149,21 @@
 
 .mediabox {
 	float: left;
-	width: 33%;
+	width: 100%;
 	padding: 0 25px;
 }
 
 .mediabox img {
-	max-width: 100%;
+	float: left;
+	max-width: 35%;
+	width: 25%;
 	display: block;
 	margin: 0 auto;
+	margin-right: 20px; 
 }
 
 .mediabox h3 {
-	margin: 0.75em 0 0.5em;
+	margin: 0em 0 0.5em;
 }
 
 .mediabox p {
@@ -221,7 +224,7 @@
 	}
 
 	.tabs nav ul li {
-		width: 20%;
+		width: 20%%;
 		width: calc(20% + 1px);
 		margin: 0 0 0 -1px;
 	}
@@ -238,6 +241,7 @@
 		float: none;
 		margin: 0 auto;
 		max-width: 100%;
+		width: 100%;
 	}
 
 	.mediabox h3 {
